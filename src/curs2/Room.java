@@ -9,13 +9,13 @@ public class Room {
 	
 	//metode
 	
-	public int calculArie(int lungime, int latime) {
+	public int calculArie() {
 		//int arie = lungime * latime;
 		//return arie;
 		return lungime * latime;
 	}
 	
-	public void calculPerimetru () {
+	public int calculPerimetru () {
 		//int perimetru = 2 * (lungime * latime);
 		//System.out.println(perimetru);
 		return 2 * (lungime + latime);
