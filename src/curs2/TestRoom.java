@@ -8,6 +8,10 @@ public class TestRoom {
 		System.out.println("Perimetru baie este: " + baie.calculPerimetru());
 		System.out.println("Arie baie este: " + baie.calculArie());
 		
+		Room dormitor = new Room(8, 6);
+		System.out.println("Perimetru dormitor este: " + dormitor.calculPerimetru());
+		System.out.println("Arie dormitor este: " + dormitor.calculArie());
+		
 
 	}
 
