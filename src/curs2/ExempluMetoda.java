@@ -10,7 +10,7 @@ public class ExempluMetoda {
 		int latime = 3;
 		//int arieRoom = lungime * latime;
 		System.out.println("Arie camera1 : " + obj.calculArie(lungime, latime));
-		obj.calculArie(lungime, latime) +23;
+		obj.calculArie(lungime, latime);
 		//System.out.println("Perimetru camera1: "+ obj.calculPerimetru(lungime, latime));
 		
 		int lungime2 = 2;
