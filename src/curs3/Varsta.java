@@ -25,12 +25,14 @@ public class Varsta {
 	public void checkVarsta() {
 		askTheUserForVarsta();
 		
-		if ( varsta < 18  ) {
+		if ( varsta >=0 && varsta <= 18  ) {
 			System.out.println("Esti minor");
 		} else if (varsta >=18 && varsta <= 65) {
 			System.out.println("Esti adult");
-		} else {
+		} else if (varsta > 65) {
 			System.out.println("Esti batran"); 
+		}else {
+			System.out.println("Varsta invalida"); 
 		}
 	}
 
