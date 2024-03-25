@@ -13,7 +13,7 @@ public class CalculCifreNumar {
 
 	public static void main(String[] args) {
 		
-	/*	
+	/*
 		Scanner scan = new Scanner(System.in);
 		System.out.println("Introdceti un numar: ");
 		int numar = scan.nextInt();
@@ -37,7 +37,7 @@ public class CalculCifreNumar {
 		String stringNumber = Integer.toString(numar);
 		int suma = 0;
 				
-		for (int i = 0;  i <= stringNumber.length(); i++) {
+		for (int i = 0;  i <= stringNumber.length()-1; i++) {
 			char cifra = stringNumber.charAt(i);
 			System.out.println("Cifra numarul " + i + " este " + cifra);
 			int cf = cifra - '0'; 
