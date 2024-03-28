@@ -3,7 +3,24 @@ package curs8;
 public class TestMostenire {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
+		//Angajat --> Tester --> TesterAutomat
+		//2 var   --> 2 var  --> 1 var
+		// cu mostenire
+		//2 var   --> 4 var  --> 5 var
+		
+		TesterAutomat tester = new TesterAutomat();
+		
+		tester.setProgrammingLanguage("Java"); //clasa TesterAutomat
+		tester.setSeniority("Senior");//clasa Tester()
+		tester.setDepartament("QA");//clasa Tester()
+		tester.setEmail("ion@ion.com");//clasa Angajat()
+		tester.setNume("Ion");//clasa Angajat()
+		tester.setAngajatId(124);//clasa Angajat()
+		
+
+		
+		
 
 	}
 
