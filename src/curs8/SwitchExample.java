@@ -16,7 +16,7 @@ import java.util.Scanner;
 public class SwitchExample {
 
 	public static void main(String[] args) {
-		Scanner scan = new Scanner(System.in);
+		Scanner scan  = new Scanner(System.in);
 		System.out.println("Introdu un calificativ:");
 		String calificativ = scan.next().toUpperCase();
 
