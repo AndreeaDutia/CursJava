@@ -16,29 +16,29 @@ public class ZileLuna {
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
 		System.out.println("Introdu o luna:");
-	//	String luna = scan.next().toUpperCase();
-		int luna1 = scan.nextInt();
+		String luna = scan.next().toLowerCase();
+		//int luna1 = scan.nextInt();
 		System.out.println("Introdu un an:");
 		int an = scan.nextInt();
 		
-	/*	
+		
 		switch(luna) {
-		case "Ianuarie":
-		case "Martie":
-		case "Mai":
-		case "Iulie":
-		case "August":
-		case "Octombrie":
-		case "Decembrie":
+		case "ianuarie":
+		case "martie":
+		case "mai":
+		case "iulie":
+		case "august":
+		case "octombrie":
+		case "decembrie":
 			System.out.println("Luna " + luna + " din anul " + an + " are 31 de zile");
 			break;
-		case "Aprilie":
-		case "Iunie":
-		case "Septembrie":
-		case "Noiembrie":
+		case "aprilie":
+		case "iunie":
+		case "septembrie":
+		case "noiembrie":
 			System.out.println("Luna " + luna + " din anul " + an + " are 30 de zile");
 			break; 
-		case "Februarie":
+		case "februarie":
 			if ((an % 4 == 0 && an % 100 != 0) || (an % 400 == 0)) {
 				System.out.println("Luna " + luna + " din anul " + an + " are 29 de zile");
 	        } else {
@@ -49,8 +49,8 @@ public class ZileLuna {
 	    	  System.out.println("Luna introdusă nu este validă."); 
 	    	  break;
 		}
-			
-		System.out.println("____________________________________________");*/
+/*			
+		System.out.println("____________________________________________");
 		
 	
 	
@@ -80,8 +80,8 @@ public class ZileLuna {
       default:
     	  System.out.println("Luna introdusă nu este validă."); 
     	  break;
-	}
+	}*/
 		
 	
-	}
+	} 
 }

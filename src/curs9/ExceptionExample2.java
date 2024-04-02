@@ -21,6 +21,10 @@ public static void main(String[] args) {
 		System.out.println("Nu mai imparti la 0 ca nu merge");
 	}catch(InputMismatchException e) {
 		System.out.println("Introdu doar numere, nu merge cu altceva!");
+	}catch(NullPointerException e) {
+		System.out.println("A iesit cu Null pointer");
+	} catch(Exception e) {
+		System.out.println("Something wrong happened!");
 	}
-	} 
+}
 }
