@@ -21,16 +21,16 @@ public class Catalog {
         Map<String, Integer> catalog = new HashMap<>();
 
         while (true) {
-            System.out.print("Introdu numele elevului (sau 'gata' pentru a încheia): ");
+            System.out.print("Introdu numele elevului (sau 'gata' pentru a termina): ");
             String numeElev = scanner.nextLine();
 
-            if (numeElev.equalsIgnoreCase("gata")) {
-            break;
-            }
+           if (numeElev.equalsIgnoreCase("gata")) {
+           break;
+           }
 
             System.out.print("Introdu nota elevului: ");
             int notaElev = scanner.nextInt();
-            scanner.nextLine(); // Consumăm newline
+            scanner.nextLine(); 
 
             if (catalog.containsKey(numeElev)) {
                 int notaExistenta = catalog.get(numeElev);
@@ -44,7 +44,7 @@ public class Catalog {
                 catalog.put(numeElev, notaElev);
                 System.out.println("Nu aveai nota, ți-am trecut acum!");
             }
-        }
+       }
 
         System.out.println("Catalogul final:");
         for (Map.Entry<String, Integer> entry : catalog.entrySet()) {
