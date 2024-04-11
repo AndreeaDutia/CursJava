@@ -6,10 +6,10 @@ public class TestCalorii {
 		Calorii obj = new Calorii();
 		//obj.writePropertiesFile();	
 		obj.readPropertiesFile("morcov");
-		obj.readPropertiesFile("rosie");
-		obj.readPropertiesFile("vanata");
-		obj.readPropertiesFile("castravete");
-		obj.readPropertiesFile("ardei");
+		//obj.readPropertiesFile("rosie");
+		//obj.readPropertiesFile("vanata");
+		//.readPropertiesFile("castravete");
+		//obj.readPropertiesFile("ardei");
 		
 		
 	}
